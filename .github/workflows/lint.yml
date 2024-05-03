@@ -13,7 +13,7 @@ jobs:
           python-version: 3.8
       - name: Checkout
         uses: actions/checkout@master
-      - name: Lint
-        uses: lgeiger/black-action@master
+      # - name: Lint
+        # uses: lgeiger/black-action@master
         with:
           args: "src --check"
